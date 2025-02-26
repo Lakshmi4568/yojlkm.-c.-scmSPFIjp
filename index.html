@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/041baed224.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionfrontpage">
+        <div class="background d-flex flex-column justify-content-center">
+            <div class="container">
+                <div class="card">
+                    <h1 class="heading">Welcome to IEEE Power and Energy Society of GECT</h1>
+                    <button onclick="display('sectionhomepage')" class="button">Click Here</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionhomepage" class="background1">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <image src="https://tse3.mm.bing.net/th?id=OIP.oWeG9XjWuUqyEptz_qe5kAHaCe&pid=Api&P=0&w=551&h=184" class="ieeelogo" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav heading">
+                    <a class="nav-item nav-link active" href="#aboutuspageSection">About Us<span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#memberspageSection">Members</a>
+                    <a class="nav-item nav-link" href="#activitiespageSection">Activites</a>
+                    <a class="nav-item nav-link" href="#followuspageSection">Follow Us</a>
+
+                </div>
+            </div>
+
+        </nav>
+        <div class="mt-3 mb-3">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Gec_thrissur.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfX62UA02eF09umslMkSq6iBT_KesnBUuW2w&s" class="d-block w-100" alt="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfX62UA02eF09umslMkSq6iBT_KesnBUuW2w&s">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://ieee-pes.org/wp-content/uploads/2024/02/logo_pes-day.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        <div class="d-flex flex-column justify-content-center card1">
+            <h1 class="text text-white">Join IEEE PES</h1>
+            <image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBpIaPeesmt5AtrLw0hSp-8l5aukkUMI03yg&s" />
+            <p class=" text1 text-white">Benefits include reduced registration to all PES events, an individual IEEE DataPort subscription, digital subscriptions to three leading IEEE PES magazines, and more!</p>
+            <button type="button" class="btn button" data-toggle="modal" data-target="#exampleModal">
+                Join Now
+            </button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Gift Voucher</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <image src="data:image/jpeg;base64,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" />
+                            <p class="text1 heading">Those who use gift voucher can get <span class="span">25% discount</span>.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Pay Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="aboutuspageSection">
+        <div class="container mt-3">
+            <div class="card1 text-white text1">
+                <h1>The Mission & Vision of PES is:
+                    <hr class="hr-line" />
+                </h1>
+                <p>To be the leading provider of scientific and engineering information on electric power and energy for the betterment of society, and the preferred professional development source for our members</p>
+            </div>
+        </div>
+        <div class="container mt-3">
+            <div class="card1 text-white text1">
+                <h1>PES' Strategic Plan:
+                    <hr class="hr-line" />
+                </h1>
+                <p>View the IEEE Power & Energy Society Strategic Direction PDF.</p>
+                <button class="button"><a href="https://ieee-pes.org/wp-content/uploads/2023/01/914_IEEE_PES_Strategic_Direction_2021-2025.pdf">2021-2025 Plan</a></button>
+            </div>
+        </div>
+        <div class="container mt-3">
+            <div class="card1 text-white text1">
+                <p>IEEE SB GECT PES refers to the IEEE Power & Energy Society (PES) Student Branch Chapter at Government Engineering College Thrissur (GECT), a local chapter focused on power and energy engineering, providing resources and activities for students. </p>
+                <h1>More Details</h1>
+                <p>What it is:<br />
+                    <hr class="hr-line" />
+                    IEEE:<br />
+                    <hr class="hr-line" />
+                    The Institute of Electrical and Electronics Engineers, a global professional organization for engineers and technologists.
+                    <hr class="hr-line" />SB:<br />
+                    Student Branch, a local chapter within the IEEE structure that focuses on student activities and networking.
+                    <hr class="hr-line" />GECT:<br />
+                    Government Engineering College Thrissur, the university where the IEEE Student Branch is located.
+                    <hr class="hr-line" />PES:<br />
+                    Power & Energy Society, a technical society within IEEE focused on electric power and energy.
+                    <hr class="hr-line" />Chapter:<br />
+                    A local group within the IEEE PES structure, providing a platform for students to engage with the field of power and energy.
+                    <hr class="hr-line" />What it does:<br />
+                    Advancing technology:<br />
+                    The IEEE SB GECT PES aims to advance technology for the good of humanity.
+                    <hr class="hr-line" />Hosting events:<br />
+                    It organizes various national, state, and college-level events and projects to help students build technical skills.
+                    <hr class="hr-line" />Providing resources:<br />
+                    It provides resources and activities for students interested in power and energy engineering.
+                    <hr class="hr-line" />Networking:<br />
+                    It facilitates networking opportunities for students with industry professionals and other students.
+                    <hr class="hr-line" />Supporting student members:<br />
+                    It supports student members in representing the branch in various international events.
+                    <hr class="hr-line" />High Performing Student Branch Chapter Program (HPSBCP):<br />
+                    PES provides funding to PES Student Branch Chapters (SBCs) to carry out activities supporting their local members through the HPSBCP.
+                    <hr class="hr-line" />IEEE PES Day:<br />
+                    IEEE PES organizes IEEE PES Day to celebrate the contributions of innovation to new energy ventures and the energy transition.
+                    <hr class="hr-line" />Key Features:<br />
+                    Multiple Societies:<br />
+                    The IEEE SB GECT hosts multiple societies, including CS, ComSoc, IAS, PES, PELS, SPS, RAS, and TEMS, as well as one Affinity Group (WIE).
+                    <hr class="hr-line" />Accolades:<br />
+                    The student branch has received accolades, including the Outstanding Student Branch (Kerala Section) award in 2016.
+                    <hr class="hr-line" />Student-focused:<br />
+                    The chapter is primarily focused on the needs and interests of students in the field of power and energy engineering.
+                    <hr class="hr-line" />PES Chapters:<br />
+                    PES has 800+ global chapters made up of Professional Chapters and Student Branch Chapters.
+                    <hr class="hr-line" />Benefits of Membership:<br />
+                    Students enjoy special IEEE and PES membership discounts.
+                    <hr class="hr-line" />Student Branch Chapter Creation:<br />
+                    To create a PES Student Branch Chapter, an IEEE Student Branch is required, along with signatures of at least six IEEE Student Branch members who are also PES members, a Faculty Advisor who is also a member of IEEE and PES, and a completed and approved petition.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="memberspageSection">
+        <div class="members-section pt-5 pb-5 background2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="text-white">PES Team Members:</h1>
+                        <hr class="hr-line" />
+                        <h1 class="text-white text">The IEEE SB GECT PES is leaded by a strong team.It's members are passionate about guiding others into <span class="span">Power and Energy Technology</span> in a mind blowing way.</h1>
+                        <div class="container border mt-5">
+                            <h1 class="text-white">Chapter Advisor:</h1>
+                            <h1 class="text-white">Prof.Bijo Lawerence T</h1>
+                        </div>
+                        <div class="container border">
+                            <h1 class="text-white">Chairperson:</h1>
+                            <h1 class="text-white">Irin Maria</h1>
+                            <p class="text-white">3rd Year ECE</p>
+                        </div>
+                        <div class="container border">
+                            <h1 class="text-white">Secretary:</h1>
+                            <h1 class="text-white">K Srihari</h1>
+                            <p class="text-white">2nd Year EEE</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="activitiespageSection">
+        <div class="card background2 text-white ">
+            <h1>Activities and meetings</h1>
+            <hr class="hr-line" />
+            <div>
+                <h1>IEEE PES GECT General Meeting</h1>
+                <p>27 February 2025 </p>
+                <hr class="hr-line" />
+            </div>
+            <div>
+                <h1>Climate change result publishing</h1>
+                <p>5 March 2025</p>
+                <hr class="hr-line" />
+            </div>
+            <div>
+                <h1>Celebrating Earth Day</h1>
+                <p>22 April 2025</p>
+                <hr class="hr-line" />
+            </div>
+            <div>
+                <h1>Engaging the Younger Generation in Sustainable Energy Education</h1>
+                <p>2 May 2025</p>
+                <hr class="hr-line" />
+            </div>
+            <div>
+                <h1>PES Announces New Editor in Chief for the IEEE Transactions on Power Systems</h1>
+                <p>8 May 2025</p>
+                <hr class="hr-line" />
+            </div>
+            <div>
+                <h1>Boot camp on power conservation</h1>
+                <p>20 May 2025</p>
+                <hr class="hr-line" />
+            </div>
+        </div>
+    </div>
+    <div id="followuspageSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 followsection">
+                    <h1 class="text-white">Follow Us</h1>
+                    <hr class="hr-line" />
+                    <div class="icon">
+                        <i class="fa-brands fa-instagram"></i>
+                        <p class="text-white ml-5"><a href="ieeepes_gect"></a>ieeepes_gect</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-brands fa-facebook"></i>
+                        <p class="text-white ml-5"><a href="https://www.facebook.com/IEEEStudents/"></a>https://www.facebook.com/IEEEStudents/</p>
+                    </div>
+                    <div class="icon ">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <p class="text-white ml-5">https:/www.linkedin.com/ieeesbgect</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-phone"></i>
+                        <p class="text-white ml-5">9543286439</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js">
+    </script>
+</body>
+
+</html>
